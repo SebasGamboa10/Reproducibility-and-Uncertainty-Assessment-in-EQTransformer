@@ -1,0 +1,89 @@
+Detalles de configuracion para la ejecucion:
+
+Utilizando PREDICTO de EqTransformer:
+
+writting_probability_outputs: False
+loss_types: ['binary_crossentropy', 'binary_crossentropy', 'binary_crossentropy']
+loss_weights: [0.02, 0.4, 0.58]
+batch_size: 500
+================== Other Parameters =========================
+normalization_mode: std
+estimate uncertainty: True
+number of Monte Carlo sampling: 50
+detection_threshold: 0.85
+P_threshold: 0.9
+S_threshold: 0.7
+number_of_plots: 10
+use_multiprocessing: True
+gpuid: 0
+gpu_limit: None
+keepPS: False
+allowonlyS: True
+spLimit: 60 seconds
+
+--> Exp 1: Comparacion de 5 estaciones utilizando Nukwa 07 - Nvidia V100:
+
+CPMI:
+        Paths: /work/sgamboa/Dropout_TEST/NEW_TEST/TEST12/2023-49/DETECTION/RESULTS/CPMI_outputs/X_prediction_results.csv
+               /work/sgamboa/Dropout_TEST/NEW_TEST/TEST13/2023-49/DETECTION/RESULTS/CPMI_outputs/X_prediction_results.csv
+
+        Resultados de la Comparacion:
+            Cantidad de filas en archivo1: 84
+            Cantidad de filas en archivo2: 77
+            Cantidad de filas: 90
+            Cantidad eventos pareados: 71
+            Cantidad eventos no pareados: 19
+            Porcentaje eventos pareados archivo 1: 84.52380952380952
+            Porcentaje eventos pareados archivo 2: 92.20779220779221
+
+HDC3:
+        Paths: /work/sgamboa/Dropout_TEST/NEW_TEST/TEST12/2023-49/DETECTION/RESULTS/HDC3_outputs/X_prediction_results.csv
+               /work/sgamboa/Dropout_TEST/NEW_TEST/TEST13/2023-49/DETECTION/RESULTS/HDC3_outputs/X_prediction_results.csv
+
+        Resultados de la Comparacion:
+            Cantidad de filas en archivo1: 92
+            Cantidad de filas en archivo2: 93
+            Cantidad de filas: 104
+            Cantidad eventos pareados: 81
+            Cantidad eventos no pareados: 23
+            Porcentaje eventos pareados archivo 1: 88.04347826086956
+            Porcentaje eventos pareados archivo 2: 87.09677419354838
+
+RIFO:
+        Paths: /work/sgamboa/Dropout_TEST/NEW_TEST/TEST12/2023-49/DETECTION/RESULTS/RIFO_outputs/X_prediction_results.csv
+               /work/sgamboa/Dropout_TEST/NEW_TEST/TEST13/2023-49/DETECTION/RESULTS/RIFO_outputs/X_prediction_results.csv
+
+        Resultados de la Comparacion:
+            Cantidad de filas en archivo1: 68
+            Cantidad de filas en archivo2: 64
+            Cantidad de filas: 72
+            Cantidad eventos pareados: 60
+            Cantidad eventos no pareados: 12
+            Porcentaje eventos pareados archivo 1: 88.23529411764706
+            Porcentaje eventos pareados archivo 2: 93.75
+
+VPLC:
+        Paths: /work/sgamboa/Dropout_TEST/NEW_TEST/TEST12/2023-49/DETECTION/RESULTS/VPLC_outputs/X_prediction_results.csv
+               /work/sgamboa/Dropout_TEST/NEW_TEST/TEST13/2023-49/DETECTION/RESULTS/VPLC_outputs/X_prediction_results.csv
+
+        Resultados de la Comparacion:
+            Cantidad de filas en archivo1: 75
+            Cantidad de filas en archivo2: 72
+            Cantidad de filas: 79
+            Cantidad eventos pareados: 68
+            Cantidad eventos no pareados: 11
+            Porcentaje eventos pareados archivo 1: 90.66666666666667
+            Porcentaje eventos pareados archivo 2: 94.44444444444444
+
+VPTE:
+        Paths: /work/sgamboa/Dropout_TEST/NEW_TEST/TEST12/2023-49/DETECTION/RESULTS/VPTE_outputs/X_prediction_results.csv
+               /work/sgamboa/Dropout_TEST/NEW_TEST/TEST13/2023-49/DETECTION/RESULTS/VPTE_outputs/X_prediction_results.csv
+
+        Resultados de la Comparacion:
+            Cantidad de filas en archivo1: 81
+            Cantidad de filas en archivo2: 83
+            Cantidad de filas: 89
+            Cantidad eventos pareados: 75
+            Cantidad eventos no pareados: 14
+            Porcentaje eventos pareados archivo 1: 92.5925925925926
+            Porcentaje eventos pareados archivo 2: 90.36144578313252
