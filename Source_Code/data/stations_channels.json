@@ -1,0 +1,614 @@
+{
+    "VTUN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VTLO": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "HAYA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CDITO": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "RIFO": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "HDC3": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "JTS": {
+        "Z": "LHZ_10",
+        "2": "EN2_00",
+        "1": "BH1_00",
+        "ENZ_00": "ENZ_00",
+        "LH2_00": "LH2_00",
+        "LH1_10": "LH1_10",
+        "LHZ_00": "LHZ_00",
+        "LH1_00": "LH1_00",
+        "BHZ_00": "BHZ_00",
+        "BH2_10": "BH2_10",
+        "EN1_00": "EN1_00",
+        "BHZ_10": "BHZ_10",
+        "LH2_10": "LH2_10",
+        "BH2_00": "BH2_00",
+        "F": "LDF_10",
+        "BH1_10": "BH1_10"
+    },
+    "CPMI": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "OCM": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "POTG": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "CTCR": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "PNBC": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VRBA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "F": "HDF",
+        "E": "HHE"
+    },
+    "VPEM": {
+        "F": "HDF",
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "ORTG": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "OCHAL": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "PEZE": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "VPLC": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "PIRO": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "SIXA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CCOL": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "COVE": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "VMAR": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "TBLN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "PNPB": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "MRVA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "PUJE": {
+        "Z": "EHZ",
+        "N": "EHN",
+        "E": "EHE"
+    },
+    "VTRT": {
+        "E": "HHE",
+        "Z": "HHZ",
+        "N": "HHN"
+    },
+    "QPSB": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VIRE": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CDM": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "PLAN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CNKC": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "ISCA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "BATAN": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "INDI": {
+        "E": "ENE",
+        "N": "HHN",
+        "HHE": "HHE",
+        "ENN": "ENN",
+        "Z": "ENZ",
+        "HHZ": "HHZ"
+    },
+    "TIGR": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "MANS": {
+        "Z": "ENZ",
+        "E": "ENE",
+        "N": "ENN"
+    },
+    "SIRE": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "PEDER": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VTCV": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "F": "HDF",
+        "E": "HHE"
+    },
+    "PNE2": {
+        "Z": "EHZ",
+        "N": "EHN",
+        "E": "EHE"
+    },
+    "BJL1": {
+        "Z": "HNZ",
+        "N": "HNN",
+        "E": "HNE"
+    },
+    "SBEB": {
+        "Z": "HNZ",
+        "N": "HNN",
+        "E": "HNE"
+    },
+    "CABS": {
+        "Z": "EHZ",
+        "N": "EHN",
+        "E": "EHE"
+    },
+    "PJIM": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "CAO2": {
+        "Z": "ENZ",
+        "E": "ENE",
+        "N": "ENN"
+    },
+    "JUDI": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "LAFE": {
+        "E": "ENE",
+        "N": "HHN",
+        "HHE": "HHE",
+        "ENN": "ENN",
+        "Z": "ENZ",
+        "HHZ": "HHZ"
+    },
+    "H3": {
+        "F": "BDF_00"
+    },
+    "LEPA": {
+        "Z": "EHZ",
+        "N": "EHN",
+        "E": "EHE"
+    },
+    "RAFA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "BCIP": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "SARO": {
+        "Z": "ENZ",
+        "E": "ENE",
+        "N": "ENN"
+    },
+    "GRZA": {
+        "Z": "ENZ",
+        "E": "ENE",
+        "N": "ENN"
+    },
+    "VRLE": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "SAJU": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "RIOS": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "H2": {
+        "F": "BDF_00"
+    },
+    "VIMO": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VICA": {
+        "F": "HDF",
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VTCE": {
+        "F": "HDF",
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "SASR": {
+        "N": "HNN",
+        "Z": "HNZ",
+        "E": "HNE"
+    },
+    "SGTS": {
+        "N": "HNN",
+        "Z": "HNZ",
+        "E": "HNE"
+    },
+    "HZTE": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "VTCG": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VTLA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CVTQ": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VBPN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VPVF": {
+        "F": "HDF",
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VTAC": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VPTE": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "H1": {
+        "F": "BDF_00"
+    },
+    "VACR": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "H4": {
+        "F": "BDF_00"
+    },
+    "SDDR": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "TGUH": {
+        "1": "BH1_00",
+        "Z": "BHZ_00",
+        "2": "BH2_00"
+    },
+    "GTBY": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "MTDJ": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "AOPR": {
+        "Z": "BHZ",
+        "E": "BHE",
+        "N": "BHN"
+    },
+    "BRU2": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "ACON": {
+        "Z": "BHZ",
+        "E": "BHE",
+        "N": "BHN"
+    },
+    "SRBA": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "RIMA": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "Z": "HNZ",
+        "HNE": "HNE",
+        "HHZ": "HHZ"
+    },
+    "CALV": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "TJAR": {
+        "E": "HHE",
+        "Z": "HHZ",
+        "N": "HHN"
+    },
+    "ACHA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CVTR": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "DUNO": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "TULIN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "JACO": {
+        "N": "HNN",
+        "HHN": "HHN",
+        "E": "HHE",
+        "HNE": "HNE",
+        "Z": "HNZ",
+        "HHZ": "HHZ"
+    },
+    "DMCL": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "SESC": {
+        "E": "HNE",
+        "N": "HNN",
+        "Z": "HNZ"
+    },
+    "CPAN": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "HRIU": {
+        "Z": "EHZ",
+        "E": "ENE",
+        "N": "EHN",
+        "EHE": "EHE",
+        "ENN": "ENN",
+        "ENZ": "ENZ"
+    },
+    "EPA2": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "CVTV": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VRGA": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "VEST": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "ANMO": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "VORI": {
+        "Z": "HHZ",
+        "N": "HHN",
+        "E": "HHE"
+    },
+    "OTAV": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    },
+    "TEIG": {
+        "1": "BH1_00",
+        "Z": "BHZ_00",
+        "2": "BH2_00"
+    },
+    "SDV": {
+        "1": "BH1_00",
+        "2": "BH2_00",
+        "Z": "BHZ_00"
+    }
+}

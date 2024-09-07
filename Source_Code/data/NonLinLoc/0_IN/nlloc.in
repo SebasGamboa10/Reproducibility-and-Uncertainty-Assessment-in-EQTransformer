@@ -1,0 +1,132 @@
+################################################################################
+#                                  Generic
+################################################################################
+
+#       | message_flag | random_number_Seed |
+CONTROL    1               54321
+
+#     |    type    |  Ref   | lat_min | lon_min | rot_angle |
+TRANS   TRANS_MERC   WGS-84     7        -84         0.0
+
+
+################################################################################
+#                                  Vel2Grid
+################################################################################
+
+VGOUT  ./1_MODEL/layer
+
+VGTYPE P
+VGTYPE S
+
+#        |  Number of nodes   |   Origin [km]    | Node spacing [km] |   Type   | 
+#        | n(x)   n(y)   n(z) | x_0   y_0   z_0  | dx     dy     dz  |   type   |
+VGGRID      2     500    200    0.0   0.0   -4.0   1.0    1.0    1.0   SLOW_LEN
+
+INCLUDE 0_IN/velmod_RSN.in
+# INCLUDE ./0_IN/velmod_IASP91.in
+
+
+################################################################################
+#                                  Grid2Time
+################################################################################
+
+GTFILES  ./1_MODEL/layer  ./2_TIME/layer   P
+# GTFILES  ./1_MODEL/layer  ./2_TIME/layer   S
+
+# Mode  |  2D or 3D  | Take-off angles
+GTMODE     GRID2D        ANGLES_YES
+
+INCLUDE ./0_IN/stations.in
+
+# Podvin & Lecomte FD params
+#       | Inhomogeneity  |  Message flag
+GT_PLFD      1.0e-3              1
+
+
+################################################################################
+#                                  Time2EQ
+################################################################################
+
+EQFILES ./2_TIME/layer ./3_SYNTH/synth.obs
+
+EQMODE SRCE_TO_STA
+
+#       | label |  x  |  y  |  z   |  origin_time |
+# EQEVENT   EQ001   0.0   0.0   30.0       0.0
+
+#       | type   | strike | dip  | rake |
+EQMECH    DOUBLE    135.0   30.0    0.0
+
+EQSRCE ARMU LATLON 8.336 -82.830 28.6 0.0
+
+INCLUDE ./0_IN/eqsta.in
+
+# Vp / Vs ratio (overrides any S travel-time grids)
+# RSN
+# EQVPVS  1.75
+# IASPEI 91
+# EQVPVS  1.74
+
+# Error mapping
+EQQUAL2ERR 0.1 0.2 0.4 0.8 99999.9
+
+
+################################################################################
+#                                  NLLoc
+################################################################################
+
+LOCSIG Leonardo van der Laat - CNCA-CeNAT
+
+LOCCOM 2019-06 Armuelles Sequence
+
+# LOCFILES ../select.out SEISAN  ./2_TIME/layer  ./4_LOC/armu
+# LOCFILES 3_SYNTH/synth.obs NLLOC_OBS  ./2_TIME/layer  ./4_LOC/armu
+# LOCFILES 0_IN/SA_PN_PL_detections.txt NLLOC_OBS ./2_TIME/layer  ./4_LOC/armu
+
+LOCHYPOUT SAVE_NLLOC_ALL SAVE_HYPOELL_SUM
+
+LOCSEARCH  OCT 10 10 4 0.01 20000 5000 0 1
+# LOCSEARCH GRID 500
+# LOCSEARCH MET 10000 1000 4000 5000 5 -1 0.01 8.0 1.0e-10
+
+# LOC   |  Number of nodes |   Origin [km]   | Node spacing [km] |     Type     | SAVE |
+# GRID  | n(x)  n(y)  n(z) | x_0   y_0   z_0 |  dx    dy     dz  |     Type     | SAVE |
+LOCGRID   501   501    199    0.0   0.0   0.0   0.5    0.5    0.5   MISFIT   SAVE
+# Type: MISFIT/PROB_DENSITY
+# Save : SAVE/NO_SAVE
+
+#       |   Method     | Max dist | Min ph. | Max ph. | Min S ph. | Vp/Vs | Max 3D grid in memory |
+LOCMETH   GAU_ANALYTIC   9999.0       4         -1        -1         1.75        6
+# LOCMETH EDT_OT_WT 9999.0 5 -1 -1 1.75 6 -1.0 1
+
+# Gaussian Model Errors
+# =====================
+# cov(ij) = sigma**2 * exp(-0.5(d**2) / corr_len**2 )
+#      | Sigma time |  Correlation length |
+LOCGAU     0.2               0.0
+
+# Travel-Time Dependent Model Errors
+# ==================================
+# Preliminary results using LOCGAU2 indicate that this way of setting travel-time
+# errors gives visible improvement in hypocenter clustering.
+# Can currently only be used with the EDT location methods
+# travel-time dependent gaussian model error parameters
+# travel time error is travel_time*SigmaTfraction, with max/min value = SigmaTmin/SigmaTmax
+#       | SigmaTfraction | SigmaTmin [s] | SigmaTmax [s] |
+LOCGAU2    0.01             0.05              2.0
+
+# Phase Identifier Mapping
+LOCPHASEID  P   P p G PN PG
+LOCPHASEID  S   S s G SN SG
+
+# Quality to Error Mapping
+LOCQUAL2ERR 0.1 0.5 1.0 2.0 99999.9
+
+# Take-off Angles parameters
+#         |    Mode    | Minimum quality |
+LOCANGLES   ANGLES_YES          5
+
+
+# Phase Statistics parameters
+#         | RMS_Max | NRdgs_Min | Gap_Max | P_ResMax | S_ResMax | Hypo_Depth_Min | Hypo_Depth_Max | Hypo_Dist_Max |
+LOCPHSTAT    9999.0    -1          9999.0     1.0        1.0       9999.9            -9999.9            9999.9

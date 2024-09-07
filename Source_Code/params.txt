@@ -1,0 +1,1 @@
+/home/ovsicori/OVSICORI-CENAT/oksp-folder /home/ovsicori/OVSICORI-CENAT/oksp-folder/EQTransformer /home/ovsicori/OVSICORI-CENAT/oksp-folder/EXP_GPU_CINCHONA/P6-6 /home/ovsicori/OVSICORI-CENAT/oksp-folder/EXP_GPU_CINCHONA/DATA /home/ovsicori/OVSICORI-CENAT/oksp-folder/stations 2023 49 49

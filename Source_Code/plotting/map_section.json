@@ -1,0 +1,66 @@
+{
+    "max_depth"    : -93,
+
+    "layout": {
+        "margin" : 1.3
+    },
+
+    "map": {
+        "x_range" : 1.8,
+        "y_range" : 1.8,
+        "shift_x" : 0,
+        "shift_y" : 0,
+        "width"   : 7,
+        "n_ticks" : 2
+    },
+
+    "profile": {
+        "azimuth"       : 34,
+        "x_range"       : 1.1,
+        "y_range"       : 1.1,
+        "shift_x"       : 0,
+        "shift_y"       : 0,
+        "dist"          : 0.05,
+        "y_ticks_delta" : 20
+    },
+
+    "topo": {
+        "grd"          : "GMRTv3_7_20200414topo.grd",
+        "cpt"          : "tp.cpt",
+        "azimuth"      : 340,
+        "gradient_max" : 10,
+        "exageration"  : 5,
+        "dist"         : 0.05,
+        "transparency" : 25
+    },
+
+    "subduction": {
+        "grd"          : "mex_slab1.0_clip.grd",
+        "asc"          : "mex_slab1.0_clip.asc",
+        "cpt"          : "jet",
+        "transparency" : 40
+    },
+
+    "events": {
+        "circle_size" : 0.13,
+        "linewidth" : 0.3
+    },
+
+    "stations": {
+        "color" : "blue",
+        "size"  : 0.35
+    },
+
+    "tmp" : {
+        "catalog"          : "tmp_cat",
+        "extremes"         : "tmp_prof_extre",
+        "track"            : "tmp_track",
+        "topo_track"       : "tmp_topo_track",
+        "hillshade"        : "tmp_hillshade",
+        "topo_label"       : "tmp_topo_label",
+        "subduction_track" : "tmp_subduction_track",
+        "proj_location"    : "tmp_pz",
+        "depth_cpt"        : "tmp_depth.cpt",
+        "stations"         : "tmp_sta"
+    }
+}
