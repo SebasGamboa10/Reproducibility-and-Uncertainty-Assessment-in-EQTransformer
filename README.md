@@ -101,17 +101,22 @@ Follow these steps to set up the project:
 
 In the folder: Experimental_Results/Results_Analysis_Code
 
-1. For comparison of the results, use the code: Experimental_Results/Results_Analysis_Code/compare.py
+1. For comparison of the results, use the code:
+   * Experimental_Results/Results_Analysis_Code/compare.py
 
-2. For generating time plots, use the code: Experimental_Results/Results_Analysis_Code/time_plot.py
+2. For generating time plots, use the code:
+   * Experimental_Results/Results_Analysis_Code/time_plot.py
 
-3. For generating histograms, use the code: Experimental_Results/Results_Analysis_Code/histogram_plot.py
+3. For generating histograms, use the code:
+   * Experimental_Results/Results_Analysis_Code/histogram_plot.py
 
-4. For generating heatmaps, use the code: Experimental_Results/Results_Analysis_Code/heatmap.py
+4. For generating heatmaps, use the code:
+   * Experimental_Results/Results_Analysis_Code/heatmap.py
 
 5. For generating donut plots, use the following codes:
    * Experimental_Results/Results_Analysis_Code/Complex_method_donut_chart_plot.py
    * Experimental_Results/Results_Analysis_Code/Simplified_method_donut_chart_plot.py
+
 
 Additionally, for plotting the Monte Carlo iterations graph, in the folder Experimental_Results/MC_Dropout_Iterations:
 Use the code: Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
