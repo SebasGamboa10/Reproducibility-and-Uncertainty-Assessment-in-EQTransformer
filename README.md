@@ -118,8 +118,8 @@ In the folder: Experimental_Results/Results_Analysis_Code
    * Experimental_Results/Results_Analysis_Code/Simplified_method_donut_chart_plot.py
 
 
-Additionally, for plotting the Monte Carlo iterations graph, in the folder Experimental_Results/MC_Dropout_Iterations:
-Use the code: Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
+Additionally, for plotting the Monte Carlo iterations graph, use the code: 
+* Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
