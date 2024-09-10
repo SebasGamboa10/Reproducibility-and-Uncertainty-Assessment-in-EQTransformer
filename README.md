@@ -46,7 +46,7 @@ This research utilized various codes and tools, some developed by us, alongside 
 - **Operating System:** Linux 64-bit (cluster, server, or personal computer).
 - **GPU Recommendation:** NVIDIA GPU for faster results.
 
-Those are recommendations, not constraints, but they might imply some changes at the time of execution.
+Those are recommendations, not constraints, but they might imply some changes at the time of execution if use in other OS.
 
 ### Programming Language
 - **Python:** All scripts and tools are developed in Python 3.
