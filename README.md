@@ -7,21 +7,19 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#Article Abstract">Article Abstract</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Requeriments">Requeriments</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Hardware Requirements">Hardware Requirements</a></li>
+        <li><a href="#Programming Language">Programming Language</a></li>
+        <li><a href="#Prerequisites">Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#Installation and Running">Installation and Running</a></li>
+    <li><a href="#Analysis Code, Comparison and Plots">Analysis Code, Comparison and Plots</a></li>
+    <li><a href="#Authors">Authors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -39,13 +37,15 @@ This study highlights the importance of method selection in deep learning models
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With
+## Requeriments
 
 This research utilized various codes and tools, some developed by us, alongside EQTransformer [Mousavi, 2020]. As this research extends the OKSP workflow developed in 2021 [Van der Laat, 2021], we provide the necessary tools, code, and data to reproduce our results.
 
 ### Hardware Requirements
 - **Operating System:** Linux 64-bit (cluster, server, or personal computer).
 - **GPU Recommendation:** NVIDIA GPU for faster results.
+
+Those are recommendations, not constraints, but they might imply some changes at the time of execution.
 
 ### Programming Language
 - **Python:** All scripts and tools are developed in Python 3.
