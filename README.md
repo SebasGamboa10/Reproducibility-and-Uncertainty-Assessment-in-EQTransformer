@@ -64,58 +64,56 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- PROJECT DESCRIPTION -->
+# Article Abstract
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This study evaluates the performance and reliability of earthquake detection using EQTransformer, a novel AI program widely used in seismological observatories and research for enhancing earthquake catalogs. We tested EQTransformer's capabilities and uncertainties using seismic data from the Volcanological and Seismological Observatory of Costa Rica, comparing two detection options: the simplified method (MseedPredictor) and the complex method (Predictor), which incorporates Monte Carlo Dropout, to assess reproducibility and uncertainty in identifying seismic events. 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Our analysis focuses on 24-hour data starting on February 18, 2023, following a magnitude 5.5 mainshock. Sequential experiments with identical data and parametrization yielded different detections and a varying number of events over time. The results demonstrate that the complex method, which leverages iterative dropout, consistently provides more reproducible and reliable detections than the simplified method, which shows greater variability and is more prone to false positives. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This study highlights the importance of method selection in deep learning models for seismic event detection, emphasizing the need for rigorous evaluation of detection algorithms to ensure accurate and consistent earthquake catalogs. Our findings offer valuable insights into the application of AI tools in seismology, particularly in enhancing the precision and reliability of seismic monitoring efforts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Built With
 
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+This research utilized multiple codes and tools, some developed by us, alongside EQTransformer [Mousavi, 2020]. As this research extends the OKSP workflow developed in 2021 [Van der Laat, 2021], we provide the necessary tools, code, and data to reproduce our results.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Hardware Requirements
+- **Operating System:** Linux 64-bit (cluster, server, or personal computer).
+- **GPU Recommendation:** NVIDIA GPU for faster results.
+
+### Programming Language
+- **Python:** All scripts and tools are developed in Python 3.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+#### Conda Environment:
+We recommend working within a Conda environment for consistency and ease of reproduction. We provide a clone of our environment. Detailed instructions for setting up Conda can be found in this tutorial:  
+[Conda on the Cluster](https://github.com/um-dang/conda_on_the_cluster.git)
+
+#### EQTransformer:
+The EQTransformer tool can be accessed by cloning the following repository:  
+[EQTransformer GitHub](https://github.com/smousavi05/EQTransformer.git)
+
+**Note:** We strongly recommend using our provided Conda environment as it contains updated software libraries actively used in this research.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Installation
+
+
+    \item \textbf{Research Source Code:}  
+    The source code necessary for the detection stage, based on the OKSP pipeline \cite{vanderlaat2021okspnoveldeeplearning}, along with additional code and data required for reproducing the results, is available. \\
+    \textbf{Note:} A README file is included in the repository, providing step-by-step instructions for use. \\
+    The source code is available for download at the following link:
+    \url{https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git}
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -175,22 +173,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -206,6 +188,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
+For any inquiries or additional support, please contact us at:
+
+\begin{itemize}
+    \item \textbf{Email:} \href{mailto:sgamboa@cenat.ac.cr}{sgamboa@cenat.ac.cr}
+    \item \textbf{GitHub:} \url{https://github.com/SebasGamboa10}
+    \item \textbf{Phone:} +506 6098 1011
+\end{itemize}
+
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
@@ -217,16 +207,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+This research was partially supported by a machine allocation on Kabré supercomputer at the Costa Rica National High Technology Center.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
