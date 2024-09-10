@@ -65,107 +65,76 @@ The EQTransformer tool can be accessed by cloning the following repository:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Installation
+## Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Follow these steps to set up the project:
 
 1. Clone this repository:
-   ```sh
+   ```bash
    git clone https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git
    ```
-2. Create de Conda environment:
-   ```sh
+   
+2. Create the Conda environment:
+   ```bash
    conda create -n eq_env --file eq_env.txt
    ```
-3. Access the Source_Code folder:
-   ```sh
+
+3. Access the `Source_Code` folder:
+   ```bash
    cd Source_Code
    ```
-4. Open the `params.txt` file and modify according with you axcecution following the next format:
-   ```sh
-   hh
+
+4. Open the `params.txt` file and modify it according to your execution needs:
+   ```bash
+   /Path/Source_Code /Path/EQTransformer /Path/Output_Folder /Path/DATA /Path/stations Year Day Day
    ```
-5. Run automaticaly the project using the next command:
-   ```sh
-   For the first time -> chmod +x ./run.sh
+
+5. Run the project automatically using the following commands:
+   ```bash
+   # First time only:
+   chmod +x ./run.sh
    ./run.sh
    ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-####Important:
-If you want to change from Predictor (Complex) to MseedPredictor (Simplified), edit the `deteccion.sh`, line 5:
-   ```sh
-  Complex execution method -> python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
-  Simplified execution method -> python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
+#### Important:
+If you want to change from `Predictor` (Complex) to `MseedPredictor` (Simplified), edit `deteccion.sh` on line 5:
+   ```bash
+   # Complex execution method:
+   python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
+
+   # Simplified execution method:
+   python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
    ```
-<!-- USAGE EXAMPLES -->
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+If you run both methods for comparison, use different output folders to avoid overwriting results.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 For any inquiries or additional support, please contact us at:
 
-\begin{itemize}
-    \item \textbf{Email:} \href{mailto:sgamboa@cenat.ac.cr}{sgamboa@cenat.ac.cr}
-    \item \textbf{GitHub:} \url{https://github.com/SebasGamboa10}
-    \item \textbf{Phone:} +506 6098 1011
-\end{itemize}
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+- **Email:** [sgamboa@cenat.ac.cr](mailto:sgamboa@cenat.ac.cr)
+- **GitHub:** [SebasGamboa10](https://github.com/SebasGamboa10)
+- **Phone:** +506 6098 1011
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This research was partially supported by a machine allocation on Kabré supercomputer at the Costa Rica National High Technology Center.
+This research was partially supported by a machine allocation on the Kabré supercomputer at the Costa Rica National High Technology Center.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
