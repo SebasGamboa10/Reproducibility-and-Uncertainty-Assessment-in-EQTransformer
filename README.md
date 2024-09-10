@@ -7,24 +7,25 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Article Abstract">Article Abstract</a>
+      <a href="#article-abstract">Article Abstract</a>
     </li>
     <li>
-      <a href="#Requeriments">Requeriments</a>
+      <a href="#requirements">Requirements</a>
       <ul>
-        <li><a href="#Hardware Requirements">Hardware Requirements</a></li>
-        <li><a href="#Programming Language">Programming Language</a></li>
-        <li><a href="#Prerequisites">Prerequisites</a></li>
+        <li><a href="#hardware-requirements">Hardware Requirements</a></li>
+        <li><a href="#programming-language">Programming Language</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="#Installation and Running">Installation and Running</a></li>
-    <li><a href="#Analysis Code, Comparison and Plots">Analysis Code, Comparison and Plots</a></li>
-    <li><a href="#Authors">Authors</a></li>
+    <li><a href="#installation-and-running">Installation and Running</a></li>
+    <li><a href="#analysis-code-comparison-and-plots">Analysis Code, Comparison and Plots</a></li>
+    <li><a href="#authors">Authors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
 
 <!-- PROJECT DESCRIPTION -->
 ## Article Abstract
@@ -162,8 +163,6 @@ For any inquiries or additional support, please contact us at:
 - **Email:** [sgamboa@cenat.ac.cr](mailto:sgamboa@cenat.ac.cr)
 - **GitHub:** [SebasGamboa10](https://github.com/SebasGamboa10)
 - **Phone:** +506 6098 1011
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
