@@ -65,7 +65,40 @@ The EQTransformer tool can be accessed by cloning the following repository:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Installation
+## Installation and Running
+
+Follow these steps to set up the project:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git
+   ```
+   
+2. Create the Conda environment:
+   ```bash
+   conda create -n eq_env --file eq_env.txt
+   ```
+
+3. Access the `Source_Code` folder:
+   ```bash
+   cd Source_Code
+   ```
+
+4. Open the `params.txt` file and modify it according to your execution needs:
+   ```bash
+   /Path/Source_Code /Path/EQTransformer /Path/Output_Folder /Path/DATA /Path/stations Year Day Day
+   ```
+
+5. Run the project automatically using the following commands:
+   ```bash
+   # First time only:
+   chmod +x ./run.sh
+   ./run.sh
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Analisys Code, Comparisson and PLots:
 
 Follow these steps to set up the project:
 
@@ -109,10 +142,20 @@ If you want to change from `Predictor` (Complex) to `MseedPredictor` (Simplified
    ```
 
 If you run both methods for comparison, use different output folders to avoid overwriting results.
+## Authors
 
-## Contributing
+- **Sebastián Gamboa Chacón**  
+  Costa Rica Institute of Technology and National High Technology Center  
+  [sgamboa@cenat.ac.cr](mailto:sgamboa@cenat.ac.cr)
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+- **Esteban Meneses**  
+  Costa Rica Institute of Technology and National High Technology Center  
+  [emeneses@cenat.ac.cr](mailto:emeneses@cenat.ac.cr)
+
+- **Esteban J. Chaves Sibaja**  
+  National University of Costa Rica - Volcanological and Seismological Observatory of Costa Rica  
+  [esteban.j.chaves@una.ac.cr](mailto:esteban.j.chaves@una.ac.cr)
+
 
 ## License
 
