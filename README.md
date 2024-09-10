@@ -65,7 +65,6 @@ The EQTransformer tool can be accessed by cloning the following repository:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
@@ -93,8 +92,12 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
+####Important:
+If you want to change from Predictor (Complex) to MseedPredictor (Simplified), edit the `deteccion.sh`, line 5:
+   ```sh
+  Complex execution method -> python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
+  Simplified execution method -> python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
+   ```
 <!-- USAGE EXAMPLES -->
 ## Usage
 
