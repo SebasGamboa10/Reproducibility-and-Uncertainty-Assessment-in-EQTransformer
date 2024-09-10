@@ -1,4 +1,4 @@
-# Reproducibility-and-Uncertainty-Assessment-in-EQTransformer
+# Reproducibility and Uncertainty Assessment in EQTransformer
 
 <a id="readme-top"></a>
 
@@ -28,13 +28,12 @@
   </ol>
 </details>
 
-
 <!-- PROJECT DESCRIPTION -->
 ## Article Abstract
 
-This study evaluates the performance and reliability of earthquake detection using EQTransformer, a novel AI program widely used in seismological observatories and research for enhancing earthquake catalogs. We tested EQTransformer's capabilities and uncertainties using seismic data from the Volcanological and Seismological Observatory of Costa Rica, comparing two detection options: the simplified method (MseedPredictor) and the complex method (Predictor), which incorporates Monte Carlo Dropout, to assess reproducibility and uncertainty in identifying seismic events. 
+This study evaluates the performance and reliability of earthquake detection using EQTransformer, a novel AI program widely used in seismological observatories and research to enhance earthquake catalogs. We tested EQTransformer's capabilities and uncertainties using seismic data from the Volcanological and Seismological Observatory of Costa Rica, comparing two detection methods: the simplified method (MseedPredictor) and the complex method (Predictor), which incorporates Monte Carlo Dropout, to assess reproducibility and uncertainty in identifying seismic events.
 
-Our analysis focuses on 24-hour data starting on February 18, 2023, following a magnitude 5.5 mainshock. Sequential experiments with identical data and parametrization yielded different detections and a varying number of events over time. The results demonstrate that the complex method, which leverages iterative dropout, consistently provides more reproducible and reliable detections than the simplified method, which shows greater variability and is more prone to false positives. 
+Our analysis focuses on 24-hour data starting on February 18, 2023, following a magnitude 5.5 mainshock. Sequential experiments with identical data and parametrization yielded different detections and a varying number of events over time. The results demonstrate that the complex method, which leverages iterative dropout, consistently provides more reproducible and reliable detections than the simplified method, which shows greater variability and is more prone to false positives.
 
 This study highlights the importance of method selection in deep learning models for seismic event detection, emphasizing the need for rigorous evaluation of detection algorithms to ensure accurate and consistent earthquake catalogs. Our findings offer valuable insights into the application of AI tools in seismology, particularly in enhancing the precision and reliability of seismic monitoring efforts.
 
@@ -42,7 +41,7 @@ This study highlights the importance of method selection in deep learning models
 
 ## Built With
 
-This research utilized multiple codes and tools, some developed by us, alongside EQTransformer [Mousavi, 2020]. As this research extends the OKSP workflow developed in 2021 [Van der Laat, 2021], we provide the necessary tools, code, and data to reproduce our results.
+This research utilized various codes and tools, some developed by us, alongside EQTransformer [Mousavi, 2020]. As this research extends the OKSP workflow developed in 2021 [Van der Laat, 2021], we provide the necessary tools, code, and data to reproduce our results.
 
 ### Hardware Requirements
 - **Operating System:** Linux 64-bit (cluster, server, or personal computer).
@@ -98,28 +97,29 @@ Follow these steps to set up the project:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Analisys Code, Comparisson and Plots:
+## Analysis Code, Comparison and Plots
 
 In the folder: Experimental_Results/Results_Analysis_Code
 
-1. For comparisson of the results use the code: Experimental_Results/Results_Analysis_Code/compare.py
+1. For comparison of the results, use the code: Experimental_Results/Results_Analysis_Code/compare.py
 
-2. For getting time plots use the code: Experimental_Results/Results_Analysis_Code/time_plot.py
+2. For generating time plots, use the code: Experimental_Results/Results_Analysis_Code/time_plot.py
 
-3. For getting histograms use the code: Experimental_Results/Results_Analysis_Code/histogram_plot.py
+3. For generating histograms, use the code: Experimental_Results/Results_Analysis_Code/histogram_plot.py
 
-4. For getting heatmaps use the code: Experimental_Results/Results_Analysis_Code/heatmap.py
+4. For generating heatmaps, use the code: Experimental_Results/Results_Analysis_Code/heatmap.py
 
-5. For getting donut plots use the codes:
+5. For generating donut plots, use the following codes:
    * Experimental_Results/Results_Analysis_Code/Complex_method_donut_chart_plot.py
    * Experimental_Results/Results_Analysis_Code/Simplified_method_donut_chart_plot.py
-Aditionaly, For plotting the MOnte Carlo iterations graph, in the folder Experimental_Results/MC_Dropout_Iterations:
-For getting donut plots use the code: Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
+
+Additionally, for plotting the Monte Carlo iterations graph, in the folder Experimental_Results/MC_Dropout_Iterations:
+Use the code: Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Important:
-If you want to change from `Predictor` (Complex) to `MseedPredictor` (Simplified), edit `deteccion.sh` on line 5:
+If you want to switch from `Predictor` (Complex) to `MseedPredictor` (Simplified), edit `deteccion.sh` on line 5:
    ```bash
    # Complex execution method:
    python3 "mydir/EQT_DETECT_PREDICTOR.py" ...
@@ -129,6 +129,7 @@ If you want to change from `Predictor` (Complex) to `MseedPredictor` (Simplified
    ```
 
 If you run both methods for comparison, use different output folders to avoid overwriting results.
+
 ## Authors
 
 - **Sebastián Gamboa Chacón**  
@@ -142,7 +143,6 @@ If you run both methods for comparison, use different output folders to avoid ov
 - **Esteban J. Chaves Sibaja**  
   National University of Costa Rica - Volcanological and Seismological Observatory of Costa Rica  
   [esteban.j.chaves@una.ac.cr](mailto:esteban.j.chaves@una.ac.cr)
-
 
 ## License
 
@@ -167,7 +167,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 This research was partially supported by a machine allocation on the Kabré supercomputer at the Costa Rica National High Technology Center.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
