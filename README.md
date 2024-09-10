@@ -98,36 +98,23 @@ Follow these steps to set up the project:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Analisys Code, Comparisson and PLots:
+## Analisys Code, Comparisson and Plots:
 
-Follow these steps to set up the project:
+In the folder: Experimental_Results/Results_Analysis_Code
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git
-   ```
-   
-2. Create the Conda environment:
-   ```bash
-   conda create -n eq_env --file eq_env.txt
-   ```
+1. For comparisson of the results use the code: Experimental_Results/Results_Analysis_Code/compare.py
 
-3. Access the `Source_Code` folder:
-   ```bash
-   cd Source_Code
-   ```
+2. For getting time plots use the code: Experimental_Results/Results_Analysis_Code/time_plot.py
 
-4. Open the `params.txt` file and modify it according to your execution needs:
-   ```bash
-   /Path/Source_Code /Path/EQTransformer /Path/Output_Folder /Path/DATA /Path/stations Year Day Day
-   ```
+3. For getting histograms use the code: Experimental_Results/Results_Analysis_Code/histogram_plot.py
 
-5. Run the project automatically using the following commands:
-   ```bash
-   # First time only:
-   chmod +x ./run.sh
-   ./run.sh
-   ```
+4. For getting heatmaps use the code: Experimental_Results/Results_Analysis_Code/heatmap.py
+
+5. For getting donut plots use the codes:
+   * Experimental_Results/Results_Analysis_Code/Complex_method_donut_chart_plot.py
+   * Experimental_Results/Results_Analysis_Code/Simplified_method_donut_chart_plot.py
+Aditionaly, For plotting the MOnte Carlo iterations graph, in the folder Experimental_Results/MC_Dropout_Iterations:
+For getting donut plots use the code: Experimental_Results/MC_Dropout_Iterations/mc_iteration_plot.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
