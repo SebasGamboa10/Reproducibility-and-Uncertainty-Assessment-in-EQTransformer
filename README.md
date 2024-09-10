@@ -2,40 +2,6 @@
 
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -63,9 +29,8 @@
 </details>
 
 
-
 <!-- PROJECT DESCRIPTION -->
-# Article Abstract
+## Article Abstract
 
 This study evaluates the performance and reliability of earthquake detection using EQTransformer, a novel AI program widely used in seismological observatories and research for enhancing earthquake catalogs. We tested EQTransformer's capabilities and uncertainties using seismic data from the Volcanological and Seismological Observatory of Costa Rica, comparing two detection options: the simplified method (MseedPredictor) and the complex method (Predictor), which incorporates Monte Carlo Dropout, to assess reproducibility and uncertainty in identifying seismic events. 
 
@@ -78,11 +43,6 @@ This study highlights the importance of method selection in deep learning models
 ## Built With
 
 This research utilized multiple codes and tools, some developed by us, alongside EQTransformer [Mousavi, 2020]. As this research extends the OKSP workflow developed in 2021 [Van der Laat, 2021], we provide the necessary tools, code, and data to reproduce our results.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-## Getting Started
 
 ### Hardware Requirements
 - **Operating System:** Linux 64-bit (cluster, server, or personal computer).
@@ -108,34 +68,29 @@ The EQTransformer tool can be accessed by cloning the following repository:
 
 ### Installation
 
-
-    \item \textbf{Research Source Code:}  
-    The source code necessary for the detection stage, based on the OKSP pipeline \cite{vanderlaat2021okspnoveldeeplearning}, along with additional code and data required for reproducing the results, is available. \\
-    \textbf{Note:} A README file is included in the repository, providing step-by-step instructions for use. \\
-    The source code is available for download at the following link:
-    \url{https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git}
-
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone this repository:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/SebasGamboa10/Reproducibility-and-Uncertainty-Assessment-in-EQTransformer.git
    ```
-3. Install NPM packages
+2. Create de Conda environment:
    ```sh
-   npm install
+   conda create -n eq_env --file eq_env.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+3. Access the Source_Code folder:
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   cd Source_Code
    ```
-
+4. Open the `params.txt` file and modify according with you axcecution following the next format:
+   ```sh
+   hh
+   ```
+5. Run automaticaly the project using the next command:
+   ```sh
+   For the first time -> chmod +x ./run.sh
+   ./run.sh
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
