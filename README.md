@@ -61,7 +61,7 @@ We recommend working within a Conda environment for consistency and ease of repr
 The EQTransformer tool can be accessed by cloning the following repository:  
 [EQTransformer GitHub](https://github.com/smousavi05/EQTransformer.git)
 
-**Note:** We strongly recommend using our provided Conda environment as it contains updated software libraries actively used in this research.
+**Note:** We strongly recommend using the provided Conda environment, as it contains updated software libraries that are actively used in this research. Additionally, we include the file `EqT_model2.h5`, which is the original EQTransformer model with a minor modification to address errors related to the learning rate. The use of this model is at your own discretion.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
